@@ -1,16 +1,16 @@
+html,
 body {
-  background: url('assets/freedom.jpg') no-repeat center center fixed;
+  background: url('assets/freedom.jpg') no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  color: #333;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  line-height: 1;
+  line-height: 1.5;
 }
 .tartalom {
   padding-top: 4rem;
@@ -20,12 +20,24 @@ body {
 }
 
 .idezet {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-family: 'Tangerine', serif;
+  font-size: 4.5rem; 
+  text-shadow: 4px 4px 4px #aaa;
+  margin: 0 auto;
 }
 
-.szerző {
-  font-family: 'Crimson Text', serif;
+.szerzo {
+  font-family: 'Gloria Hallelujah', serif;
   font-size: 1.5rem;
-  font-style: italic;
+  font-style: normal;
+  margin: 0 auto;
+  color:brown
 }
+
+.valaszto {
+  padding: 0% 3%;
+  border-top: 2px solid hsla(1, 0%, 30%, .8);
+  width: 7%;
+  margin: 0 auto;
+}
+
